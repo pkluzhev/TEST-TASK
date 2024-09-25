@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+form,
+fieldset,
+label,
+input,
+textarea {
+    all: initial;
+}
+
+body {
+    background-color: #e9ebdf;
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.form {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.form__title {
+    margin-bottom: 40px;
+    font: 600 32px/38.4px Montserrat, sans-serif;
+    color: #151824;
+}
+
+.form-field__input {
+    display: block;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    height: 44px;
+    min-width: 220px;
+    border-radius: 4px;
+    padding: 10px 19px;
+    font: 400 16px/24px Montserrat, sans-serif;
+    border: solid 1px #000000;
+}
+
+.form-field__button {
+    display: block;
+    box-sizing: border-box;
+    height: 44px;
+    margin-bottom: 20px;
+    padding: 5.5px 36px 6.5px 37px;
+    background-color: #3D50F9;
+    border-radius: 3px;
+    text-align: center;
+    font: 400 16px/24px Montserrat, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.alert {
+    display: none;
+    font: 400 16px/24px Montserrat, sans-serif;
+    color: #bf8686;
+    margin-bottom: 20px;
+}
+
+.alert_active {
+    display: block;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.table__row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-self: start;
+    border: solid 1px #000000;
+    border-bottom: none;
+}
+
+.table__row:last-child {
+    border-bottom: solid 1px #000000;
+}
+
+.table__cell {
+    display: inline-block;
+    min-width: 250px;
+    box-sizing: padding-box;
+    margin: 0;
+    padding: 15px;
+    font: 700 16px/24px Montserrat, sans-serif;
+    color: #000000;
+    border-right: solid 1px #000000;
+}
+
+.table__cell_content {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    font: 400 16px/24px Montserrat, sans-serif;
+    color: #000000;
+    border-right: none;
+}
