@@ -9,13 +9,12 @@ document.addEventListener("DOMContentLoaded", () => {
     loop: true,
     
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".swiper-button-next_custom",
+      prevEl: ".swiper-button-prev_custom",
     },
 
     pagination: {
       el: ".swiper-pagination",
-      dynamicBullets: true,
     },
   })
 })

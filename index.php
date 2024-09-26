@@ -260,10 +260,10 @@
             <p class="questions-block__text-content text-content">We provide our partners with fast tech and sales assistance, including pre-sales and sales support.<br><br>Contact us any time at<br>partner@ispring.com.</p>
         </div>
 
-        <p class="feedback-slider__title title">See how companies benefit from partnering with iSpring</p>
-        
+        <p class="feedback-slider-title title">See how companies benefit from partnering with iSpring</p>
+
         <div class="feedback-slider swiper">
-            <div class="swiper-wrapper ">
+            <div class="feedback-slider__wrapper swiper-wrapper">
                 <div class="feedback-slider__slide swiper-slide">
                     <div class="slide__title-container">
                         <img class="slide__image" src="../images/slide-rectangles.png" alt="Rectangles">
@@ -314,8 +314,10 @@
                 </div>
             </div>
             <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev swiper-button-prev_custom"></div>
-            <div class="swiper-button-next swiper-button-next_custom"></div>
+            <div class="feedback-slider__button-container">
+                <div class="swiper-button-prev_custom"></div>
+                <div class="swiper-button-next_custom"></div>
+            </div>
         </div>
 
         <div class="form-block-background">
